@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Primi passi operativi per creare un modello di HTML per un post. Scopri come iniziare in modo facile">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sviluppo di una pagina web-Blog Epicode</title>
 </head>
+
 <body>
-    
+<header>
+   <!--header della pagina--> 
+    <img  class="logo" src="img/logo.svg" alt="logo">
+    <h1 class="titolo logo">Epicode-Il blog dei developers</h1>
+</header>
+<!--menù nav-->
+<nav>
+    <ul class="menù">
+    <li><button><a href="#">Home</a></button></li>
+    <li><button><a href="#">Articoli</a></button></li>
+    <li><button><a href="#">Job</a></button></li>
+    </ul>
+</nav>
+<main>
+    <section class="title">
+    <h2>Come creare un template per i post</h2>
+    <h3>di <i>Mario Rossi</i> - pubblicato il 25-10-2020</h3>
+    </section>
+
+    <!--articoli-->
+    <section>
+        <div id="prima">
+           <p> La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine.</p>
+        </div>
+        <article class="articoli">   
+           <p>le varie aree saranno quindi suddivise in:</p>
+                <ul>
+                    <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+                    <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
+                    <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
+                    <li>Formattazione del codice</li>
+                </ul>
+        </article>
+
+    </section>
+
+</main>
+
 </body>
+
 </html>
