@@ -96,10 +96,11 @@ td {
     }
 
 .section4{
+    padding: 50px;
     background-color: #c5c6da;
-    justify-content: center;
+    justify-content: right;
     display: flex;
-    align-items: center;
+    align-items: start ;
     flex-direction: column;
 }
 
@@ -118,5 +119,6 @@ td {
 
 #copyright{
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
 
 }
