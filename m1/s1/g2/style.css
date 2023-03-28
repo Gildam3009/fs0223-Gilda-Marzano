@@ -74,3 +74,23 @@ nav {
     display: flex;
     background-color: #c5c6da;
 }
+
+table {
+    border: 1px solid #000000;
+    
+    }
+
+th{ 
+   background-color: #d8d6d6;
+
+}    
+
+tr {
+    background-color: #d8d6d6;
+}
+
+td {
+    background-color: #eeeeee;
+    border-color: 1px solid #000000;
+    
+    }
