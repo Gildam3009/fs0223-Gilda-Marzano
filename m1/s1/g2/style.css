@@ -4,3 +4,33 @@
     font-family: poppins;
     box-sizing: border-box;
 }
+
+#logo{
+    background-color: #c5c6da;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.section{
+    background-color: #c5c6da;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section{
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+nav {
+    display: flex;
+    background-color: #c5c6da;
+}
