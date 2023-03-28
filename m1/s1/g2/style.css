@@ -12,25 +12,35 @@
     align-items: center;
     flex-direction: column;
     padding:30px;
-
+    
 }
 
 .menù{
     flex-direction: row;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content:center ;
+    gap: 20px;  
     align-items: center;
-    flex-wrap: nowrap;
     padding: 20px;
-    font-size: large;
-    
-    
+    font-size:medium;
+    font-weight: 900;
+        
 }
 
+
 .title{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    padding: 20px;
     background-color: #c5c6da;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#mario{
+    font-size: small;
+    text-decoration: underline;
 }
 
 .section1{
