@@ -23,12 +23,7 @@
     flex-direction: column;
 }
 
-.section{
-justify-content: center;
-display: flex;
-align-items: center;
-flex-direction: column;
-}
+
 
 nav {
     display: flex;
