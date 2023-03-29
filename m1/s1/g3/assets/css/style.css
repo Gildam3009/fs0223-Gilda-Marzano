@@ -5,7 +5,7 @@
 
 .scrittalogo{
     display: flex;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     padding: 10px;
     background-color:rgba(253, 205, 15, 0.3) ;
@@ -40,8 +40,6 @@
     color: rgba(160, 155, 155, 0.8);
     font-size: 13px;
     line-height: 40px ;
-
-
 }
 
 #title{
@@ -56,8 +54,7 @@
 .text{
     display: flex;
     text-align: justify;
-    margin-left: 600px;
-
+    margin-left: 600px;   
     flex-direction: column;
 }
 
