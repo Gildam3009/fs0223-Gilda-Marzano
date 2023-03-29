@@ -72,8 +72,9 @@
 }
 
 .link{
-    color: rgb(0, 116, 136);
+    color: rgb(4, 152, 178);
     font-size: 15px;
+    font-weight: 400;
 }
 
 .prova{
@@ -81,13 +82,19 @@
     margin-left: 1px solid yellow;    
 }
 
-.ricetta{
+.ricetta, .method{
     line-height: 30px;
     padding: auto;
-    border-top: 1px solid rgb(109, 109, 168);
+    border-top: 1px solid rgba(138, 215, 240, 0.408);
+    margin-right: 500px;
 }
 
-.style-ingredient-method{
-    padding: auto;
-    
+.lititolo{
+    font-weight: bold;
 }
+
+.lipar{
+     font-weight: 500;
+}
+
+    
