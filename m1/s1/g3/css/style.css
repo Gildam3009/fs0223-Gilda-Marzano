@@ -1,0 +1,93 @@
+:root{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.scrittalogo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background-color:rgba(253, 205, 15, 0.3) ;
+    border-top: 1px solid rgba(252, 201, 0, 0.5);
+    color: rgb(7, 94, 98);
+    font-size: 15px;
+
+    
+}
+
+.immagine{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    
+    width: 230px;
+}
+
+
+.img{
+    
+    width: 700px;
+    border-radius: 3%;
+}
+
+.scrittaimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(160, 155, 155, 0.8);
+    font-size: 13px;
+    line-height: 40px ;
+
+
+}
+
+#title{
+    
+    text-align: center;
+    font-size: 30px;
+    
+    
+        
+}
+
+.text{
+    display: flex;
+    text-align: justify;
+    margin-left: 600px;
+
+    flex-direction: column;
+}
+
+#par1{
+    text-align: center;
+
+}
+
+.red{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link{
+    color: rgb(0, 116, 136);
+    font-size: 15px;
+}
+
+.prova{
+    padding: 5px;
+    margin-left: 1px solid yellow;    
+}
+
+.ricetta{
+    line-height: 30px;
+    padding: auto;
+    border-top: 1px solid rgb(109, 109, 168);
+}
+
+.style-ingredient-method{
+    padding: auto;
+    
+}
