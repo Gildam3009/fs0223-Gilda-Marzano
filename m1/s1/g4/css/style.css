@@ -83,3 +83,22 @@ main{
 
 }
 
+table{
+    border: 1px solid white;
+}
+
+#titolotab{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.rows{
+    border: 1px solid white;
+    background-color: gray;
+}
+
+
+
+iframe{
+    width: 100%;
+}
