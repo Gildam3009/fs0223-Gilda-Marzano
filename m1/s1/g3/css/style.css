@@ -1,0 +1,98 @@
+:root{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.scrittalogo{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    padding: 10px;
+    background-color:rgba(253, 205, 15, 0.3) ;
+    border-top: 1px solid rgba(252, 201, 0, 0.5);
+    color: rgb(7, 94, 98);
+    font-size: 15px;
+
+    
+}
+
+.immagine{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    
+    width: 230px;
+}
+
+
+.img{
+    
+    width: 700px;
+    border-radius: 3%;
+}
+
+.scrittaimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(160, 155, 155, 0.8);
+    font-size: 13px;
+    line-height: 40px ;
+
+}
+
+#title{
+    
+    text-align: center;
+    font-size: 30px;
+    
+    
+        
+}
+
+.text{
+    display: flex;
+    text-align: justify;
+    margin-left: 600px;   
+    flex-direction: column;
+}
+
+#par1{
+    text-align: center;
+
+}
+
+.red{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link{
+    color: rgb(4, 152, 178);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.prova{
+    padding: 5px;
+    margin-left: 1px solid yellow;    
+}
+
+.ricetta, .method{
+    line-height: 30px;
+    padding: auto;
+    border-top: 1px solid rgba(138, 215, 240, 0.408);
+    margin-right: 500px;
+}
+
+.lititolo{
+    font-weight: bold;
+}
+
+.lipar{
+     font-weight: 500;
+}
+
+    
