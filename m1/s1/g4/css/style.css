@@ -84,17 +84,22 @@ main{
 }
 
 table{
-    border: 1px solid white;
+    text-align: center;
+    width: 100%;
+    table-layout: auto;
 }
+
+
 
 #titolotab{
     font-weight: bold;
     font-style: italic;
+    text-align: center;
 }
 
-.rows{
+.rows {
     border: 1px solid white;
-    background-color: gray;
+    background-color: white;
 }
 
 
@@ -102,3 +107,9 @@ table{
 iframe{
     width: 100%;
 }
+
+.rows{
+    background-color: blue;
+}
+
+
