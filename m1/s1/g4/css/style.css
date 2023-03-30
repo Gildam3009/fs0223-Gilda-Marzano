@@ -10,7 +10,7 @@ body{
     }
 
 header{
-        background-color: rgb(40, 127, 198);
+        background-color: #006b88;
         height: 250px;
         border:1px solid #999;
         margin-left: 20px;
@@ -52,9 +52,7 @@ main{
     background-color: white;
     margin: 20px ;
     border:1px solid #999;
-    
-    
-    
+           
 }
 
 .section1{
@@ -83,33 +81,50 @@ main{
 
 }
 
-table{
-    text-align: center;
-    width: 100%;
-    table-layout: auto;
-}
-
-
-
 #titolotab{
     font-weight: bold;
     font-style: italic;
     text-align: center;
 }
 
-.rows {
-    border: 1px solid white;
-    background-color: white;
+
+table{
+    text-align: center;
+    width: 95%;
+    margin-left: 10px;
+   }
+
+
+#rows{
+    background-color: #006b88;
+    height: 45px;
+    
+   
 }
 
 
+td{
+    border: 1px solid gray;
+    height: 45px;
+    
+    
+}
+
+
+table tr:nth-of-type(odd){
+    background-color: #ccc;
+}
+
+.section3
 
 iframe{
     width: 100%;
 }
 
-.rows{
-    background-color: blue;
+.section3{
+    margin-left: 15px;
+    justify-content: center;
+    
+    
 }
-
 
