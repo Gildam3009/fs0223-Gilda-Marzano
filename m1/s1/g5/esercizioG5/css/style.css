@@ -1,0 +1,106 @@
+*{box-sizing: border-box;
+
+}
+
+header{
+    width: 100%;
+    background-color: black;
+}
+
+.imglogo{
+    width: 30px;
+    align-content: center;
+ }
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+
+}
+
+#section1{
+    text-align: center;
+   
+}
+
+#first{
+    background-image:url(../assets/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 30px 15px 30px 30px;
+    margin-bottom: 50px;
+    
+}
+
+h1, h2, h3{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5 ;
+    margin-bottom: 10px;
+
+}
+
+h1{
+    font-size: 30px;
+
+}
+
+.button{
+    background-color: #f04c2f ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+    border: #f04c2f;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+.formatp{
+    padding: 0px 70px 30px 60px;
+    text-align: center;
+}
+
+#roundimg{
+    border-radius: 100%;
+     
+}
+
+#contenitore3{
+    margin-top: 20px;
+
+}
+
+.testimonialformat{
+    background-color: #e22d0e;
+    padding: 50px 15px 30px 15px;
+    color: white;
+}
+
+#h2format{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#testimonialp{
+    font-style: italic;
+    
+    margin-bottom: 25px;
+}
+
+#formatMario{
+    font-size: 22px;
+    
+}
+
+#formatc{
+    font-size: 16px;
+}
