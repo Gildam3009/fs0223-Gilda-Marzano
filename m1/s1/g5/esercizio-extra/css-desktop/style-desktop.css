@@ -5,12 +5,15 @@
 header{
     width: 100%;
     background-color: black;
+    align-content: center;
+    
     
 }
 
 #centralogo{
+    margin-left:37%;
     padding: 30px 60px 30px 60px;
-    width: 300px;
+    width: 30px;
     align-content: center;
  }
 
