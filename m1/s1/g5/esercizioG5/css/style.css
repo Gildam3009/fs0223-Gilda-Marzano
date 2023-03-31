@@ -5,12 +5,20 @@
 header{
     width: 100%;
     background-color: black;
+    align-content: center;
 }
 
-.imglogo{
-    width: 30px;
+#logo{
+    margin-left: 100px;
+    padding: 30px 60px 30px 60px;
+    width: 300px;
+    
+ }
+
+ #centralogo{
     align-content: center;
  }
+
 
 
 
@@ -146,3 +154,9 @@ h1{
     color: #c8e7f0;
     padding: 30px 50px 30px 70px;
 }
+
+a {
+    color: #c8e7f0;
+
+}
+
