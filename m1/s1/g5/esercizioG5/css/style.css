@@ -5,23 +5,16 @@
 header{
     width: 100%;
     background-color: black;
-    align-content: center;
+    
 }
 
-#logo{
-    margin-left: 100px;
+#centralogo{
     padding: 30px 60px 30px 60px;
     width: 300px;
-    
+    align-content: center; 
  }
 
- #centralogo{
-    align-content: center;
- }
-
-
-
-
+ 
 body{
     font-family: 'Open Sans', sans-serif;
     color: #393d41;
