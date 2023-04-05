@@ -176,7 +176,7 @@ let parola = "ciao";
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
 
   let val = 7
-  if (val < 10 ) {
+  if (val >=5 && val < 10 ) {
       console.log("Meno di 10");
     } else if (val < 5) {
       console.log("Meno di 5");
@@ -185,18 +185,22 @@ let parola = "ciao";
     }
 
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
-
+{
 const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
+me.push('city');
+console.log(me);
 
+
+}
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 12
