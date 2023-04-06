@@ -177,13 +177,14 @@ console.log(femaleCharacters);
 /* ESERCIZIO 6
   Usa un while loop per calcolare la massa totale dell'equipaggio
   */
-  let totalMass    
-  do {
-        totalMass = 0;
-      }
-        while (totalMass += starWarsCharacters.mass) 
+  let totalMass = 0;
+  let a = 0;
 
-        console.log(totalMass);
+  while (a < starWarsCharacters.length) {
+    totalMass += parseInt(starWarsCharacters[a].mass);
+    a++;
+  }
+  console.log(totalMass)
           
              
 
