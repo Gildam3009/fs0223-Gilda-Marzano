@@ -1,0 +1,118 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.bg-dark{
+    
+    background-color: #222f3e;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right:60% ;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: #35475b;
+    font-size: 19px;
+    
+    
+}
+
+a, .giftcards, .bg-dark{
+    color: #eaeded;
+    text-decoration: none;
+    
+}
+
+#logo{
+    width: 150px;
+    padding: 20px;
+}
+
+
+
+.giftcards{
+    background-color: #f56600;
+   text-align: center;
+    padding: 17px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+#HolydayGuide{
+    background-image: url(../esercizio/assets/bg-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#h2a, #p1{
+    text-align: center;
+}
+
+#h2a{
+    font-size: 40px;
+    color: #eaeded;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+#p1{
+    font-size: 23px;
+    color: #eaeded;
+    font-weight: bolder;
+    margin-top: 5px
+}
+
+#blocco1{
+    background-color: #eaeded;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.scrittenere{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-top: 20px;
+    font-weight: 525;
+}
+
+.scritteblu{
+
+    font-size: 20px;
+    color: rgb(3, 104, 129);
+    font-weight: bolder;
+}
+
+.imgblocco1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: top;
+    
+}
+
+.img1{
+    width: 350px;
+    border-radius: 10px;
+
+}
+
