@@ -67,29 +67,35 @@ const cars = [
     trims: ['life', 'style', 'r-line'],
   },
 ]
-cars.forEach ((element)=> {
-  element.licensePlate= 'dg468s'
-})
 
-console.log(cars)
+
+for( licensePlate of cars ) {
+  console.log (licensePlate= "123")
+}
+
+
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
-
-  cars.push({
+  let car = {
+  
     brand: 'kia',
     model: 'ceed',
     color: 'grey',
     trims: ['life', 'style', 'r-line']
 
     
-})
+}
+
+cars.push(car)
 
   console.log(cars)
 
-   
+  for (x=0; x<cars.length; x++) {
+    cars[x].trims.pop()
+  }
 
   console.log(cars)
 
@@ -98,9 +104,12 @@ console.log(cars)
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
+    let justTrims = []
 
-
-const justTrims = []
+    for (y=0; y<cars.length; y++) {
+      justTrims.push(cars[y].trims[0])
+    }   
+    console.log(justTrims)
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
@@ -121,11 +130,11 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
 
-let number= 0
+let num= 0
 
-while (number<numericArray.indexOf(32)) {
-  console.log(numericArray[number])
-  number++;
+while (numericArray [num] != 32){
+  console.log(numericArray [num])
+  num++
 }
 
 
@@ -137,20 +146,25 @@ while (number<numericArray.indexOf(32)) {
 */
 const charactersArray = ["g", "n", "u", "z", "d"]
 
-switch(charactersArray){
-  case "g":
-    console.log("7")
-    break;
-  case "n":
-    console.log("15") 
-    break;
-  case "u":
-    console.log("21")
-    break;
-  case "z":
-    console.log("26")
-    break;
-  case "d":
-    console.log("4")    
-    
+let a= 0
+
+for (a=0; a <charactersArray.length; a++) {
+  switch (charactersArray[a]) {
+    case "g":
+      console.log(7)
+      break;
+    case "n":
+      console.log(14)
+      break;
+    case "u":
+      console.log(21)
+      break;
+      case "z":
+        console.log(26)
+        break;
+        case "d":
+          console.log(4)
+    default:
+      console.log(charactersArray[a])
+  }
 }
