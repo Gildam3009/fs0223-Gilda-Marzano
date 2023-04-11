@@ -114,12 +114,24 @@ console.log(reverseString("nonriflettoilvoltomailcuore"))
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
-function upperFirst(str){
-    for (let x=0; x<str.length; x++){
-    return str.charAt(0).toUpperCase() + str.slice(1)}
-    return str.charAt(0).toUpperCase() + str.slice(1)}
 
-console.log(upperFirst("ciao sono gilda"))
+
+function upperFirst(string){
+    let wordsArray= string.split(" ");
+    let capitalizedWords =[];
+    for(let word of wordsArray){
+
+        let firstLetter= word[0].toUpperCase();
+        console.log(firstLetter);
+        word= firstLetter+ word.slice(1);
+        console.log(word);
+        capitalizedWords.push(word);
+    }
+    return capitalizedWords.join(' ')
+}
+    let risultato = upperFirst ("ciao sono gilda")
+
+    console.log(upperFirst (risultato))
 
 
 /* ESERCIZIO 9
