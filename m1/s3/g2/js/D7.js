@@ -56,22 +56,45 @@ console.log(filterArray(array));
 /* ESERCIZIO 4
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
-
+{
 let array2 = [20, 30, 67, 89, 93, 45]
 
-function sumArray(array2) {
-  return array2.reduce(function (acc, val) {
-    return acc + val;
-  }, 0);
+function sumArray(numeri){
+  let risultato = 0;
+  for (let i = 0; i < numeri.length; i++) {
+    risultato += numeri[i];
+  }
+  return risultato
 } 
+console.log(sumArray(array2));
+}
 
 /* ESERCIZIO 5
   Scrivi una funzione per sommare i numeri contenuti in un array (usare REDUCE)
 */
+{
+let array3 = [20, 30,68,90, 93, 45]
+
+function sumArray2(){
+  let risult=array3.reduce((n1,n2));
+  return n1+n2;
+} 
+
+console.log(sumArray(array3));
+}
 
 /* ESERCIZIO 6
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
 */
+let array4 = [1, 2, 3, 4, 5,6,7];
+
+function incrementArray(array, n) {
+  let nuovoArray= [];
+  for (let i = 0; i < array.length; i++) {
+    nuovoArray.push(array[i] + n);
+  }
+  return nuovoArray;}
+  console.log(incrementArray(array4, 2));
 
 /* ESERCIZIO 8
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
