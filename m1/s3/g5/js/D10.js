@@ -102,19 +102,52 @@ function whoIsBigger(a, b) {
   Se il valore booleano è true la funzione deve ritornare la stringa senza il primo carattere, altrimenti la deve ritornare senza l'ultimo.
 */
 
+  function deleteOne(str, bool) {
+    if (bool == true) {
+      return str.slice(1, str.length)
+    } else {
+      return str.slice(0, -1)
+    }
+  }
+   console.log(deleteOne("Ciao, sono Gilda", true))
+   console.log(deleteOne("Ciao, sono Gilda", false))
 /* ESERCIZIO 5
   Crea una funzione chiamata "onlyLetters" che riceve una stringa come parametro e la ritorna eliminando tutte le cifre numeriche.
 
   Es.: onlyLetters("I have 4 dogs") => ritorna "I have dogs"
 */
+let n= Number
+n= 100
+
+    function onlyLetters(str) {
+      if ( str.includes (n))
+      return str.replace(n, "")
+    }
+
+    console.log(onlyLetters("Ho 100 pesci"))
 
 /* ESERCIZIO 6
   Crea una funzione chiamata "isThisAnEmail" che riceve una stringa come parametro e ritorna true se la stringa è un valido indirizzo email.
 */
 
+  function isThisAnEmail(str) {
+    if (str.includes("@")) {
+      return true}
+      else {
+        return false}
+      }
+    
+      console.log(isThisAnEmail("info@gmail.com"))
+
 /* ESERCIZIO 7
   Scrivi una funzione chiamata "whatDayIsIt" che ritorna il giorno della settimana corrente.
 */
+      let today = new Date()
+
+      function whatDayIsIt() {
+        return today.getDay()}
+
+        console.log(whatDayIsIt())
 
 /* ESERCIZIO 8
   Scrivi una funzione chiamata "rollTheDices" che riceve un numero come parametro.
@@ -128,6 +161,8 @@ function whoIsBigger(a, b) {
       values: [3, 3, 4]
   }
 */
+
+function rollTheDices(5) {
 
 /* ESERCIZIO 9
   Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.
